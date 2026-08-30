@@ -4,7 +4,7 @@ import slugify from "./slugify";
 
 const BYTE_LIMIT = 4096;
 const TELEGRAM_BASE = "https://t.me/share/url";
-const FALLBACK_BASE_URL = "https://laulum.me/";
+const FALLBACK_BASE_URL = "https://saatanam.me/";
 
 const getTelegramURL = (url: string, text: string = ""): string =>
    `${TELEGRAM_BASE}?url=${encodeURIComponent(url)}&text=${encodeURIComponent(

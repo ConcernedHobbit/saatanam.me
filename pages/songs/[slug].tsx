@@ -59,7 +59,7 @@ const SongPage = ({
   bookNames,
   markdownHtml,
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
-  const title = `${song.title} | laulum.me`;
+  const title = `${song.title} | saatanam.me`;
   const slug = slugify(song.title);
 
   const [backPage, setBackPage] = useState("/");
@@ -81,7 +81,7 @@ const SongPage = ({
     <>
       <Head>
         <title>{title}</title>
-        <meta name="title" content={`${song.title} on laulum.me`} />
+        <meta name="title" content={`${song.title} on saatanam.me`} />
         <meta
           name="description"
           content={`Lyrics for ${song.title}${
@@ -90,21 +90,21 @@ const SongPage = ({
         />
         <meta
           name="keywords"
-          content={`${song.title}, sitsit, laulu, sitsilaulu, sanat, lyrics, laulum.me, tko-äly, sitz, table party, academic table party, pöytäjuhla`}
+          content={`${song.title}, sitsit, laulu, sitsilaulu, sanat, lyrics, saatanam.me, kerava, sitz, table party, academic table party, pöytäjuhla`}
         />
 
         <meta name="og:title" content={`♫ ${song.title}`} />
         <meta name="og:type" content="website" />
         <meta
           name="og:image"
-          content="https://laulum.me/icons/apple-touch-icon.png"
+          content="https://saatanam.me/icons/apple-touch-icon.png"
         />
-        <meta name="og:url" content={`https://laulum.me/songs/${slug}`} />
+        <meta name="og:url" content={`https://saatanam.me/songs/${slug}`} />
         <meta
           name="og:description"
           content={`Lyrics for the song ${song.title}.`}
         />
-        <meta name="og:site_name" content="laulum.me" />
+        <meta name="og:site_name" content="saatanam.me" />
       </Head>
 
       <Header>
@@ -137,7 +137,7 @@ const SongPage = ({
 
       <Footer>
         <Link
-          href={`https://github.com/TKOaly/laulum.me/edit/main/songs/${song.filename}`}
+          href={`https://github.com/ConcernedHobbit/saatanam.me/edit/main/songs/${song.filename}`}
           target="_blank"
           rel="noreferrer noopener"
           variant="secondary"

@@ -1,5 +1,0 @@
----
-title: Finlandssvensk snapsvisa
----
-
-Nu!

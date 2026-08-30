@@ -9,7 +9,7 @@ const Custom404 = () => {
           Return to main page
         </Link>
         <Link
-          href="https://github.com/TKOaly/laulum.me"
+          href="https://github.com/ConcernedHobbit/saatanam.me"
           variant="secondary"
           target="_blank"
           rel="noreferrer noopener"

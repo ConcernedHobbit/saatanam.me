@@ -1,5 +1,0 @@
----
-title: Puheenjohtajan juomalaulu
----
-
-Nyt!

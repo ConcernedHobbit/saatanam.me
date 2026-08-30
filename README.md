@@ -1,3 +1,6 @@
+> [!NOTE]
+> Meme fork of TKOaly/laulum.me. Original README below.
+
 # laulum.me
 
 This is an electronic version of songbook for sitsit. All the songs in this repo are mostly as they are in TKO-äly ry official songbook. The site itself is hosted in https://laulum.me

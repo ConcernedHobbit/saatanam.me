@@ -12,13 +12,13 @@ export default function Document() {
 
         {/* PWA Configuration */}
         <link rel="manifest" href="/manifest.json" />
-        <meta name="application-name" content="laulum.me" />
+        <meta name="application-name" content="saatanam.me" />
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="laulum.me" />
+        <meta name="apple-mobile-web-app-title" content="saatanam.me" />
         <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="msapplication-TileColor" content="#fff500" />
+        <meta name="msapplication-TileColor" content="#ff7700" />
         <meta name="msapplication-tap-highlight" content="no" />
         <meta name="theme-color" content="#000000" />
         <link rel="shortcut icon" href="/favicon.ico" />

@@ -58,7 +58,7 @@ export const getStaticProps: GetStaticProps<{ book: Book }> = async (
 };
 
 const BookPage = ({ book }: InferGetStaticPropsType<typeof getStaticProps>) => {
-  const title = `${book.title} | laulum.me`;
+  const title = `${book.title} | saatanam.me`;
 
   const amountValidSongs = book.songs.filter(
     (song) => song.content || song.slug
@@ -68,28 +68,28 @@ const BookPage = ({ book }: InferGetStaticPropsType<typeof getStaticProps>) => {
     <>
       <Head>
         <title>{title}</title>
-        <meta name="title" content={`${book.title} on laulum.me`} />
+        <meta name="title" content={`${book.title} on saatanam.me`} />
         <meta
           name="description"
           content={`View the contents of ${book.title}.`}
         />
         <meta
           name="keywords"
-          content={`${book.title}, sitsit, laulu, sitsikirja, sanat, lyrics, laulum.me, tko-äly, sitz, table party, academic table party, pöytäjuhla, book`}
+          content={`${book.title}, sitsit, laulu, sitsikirja, sanat, lyrics, saatanam.me, kerava, sitz, table party, academic table party, pöytäjuhla, book`}
         />
 
         <meta name="og:title" content={book.title} />
         <meta name="og:type" content="website" />
         <meta
           name="og:image"
-          content="https://laulum.me/icons/apple-touch-icon.png"
+          content="https://saatanam.me/icons/apple-touch-icon.png"
         />
-        <meta name="og:url" content={`https://laulum.me/books/${book.name}`} />
+        <meta name="og:url" content={`https://saatanam.me/books/${book.name}`} />
         <meta
           name="og:description"
           content={`View the contents of ${book.title}.`}
         />
-        <meta name="og:site_name" content="laulum.me" />
+        <meta name="og:site_name" content="saatanam.me" />
       </Head>
 
       <Header>
@@ -184,11 +184,11 @@ const BookPage = ({ book }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
       <Footer>
         <p style={{ opacity: 0.75 }}>
-          {amountValidSongs} / {book.songs.length} songs found in laulum.me.
+          {amountValidSongs} / {book.songs.length} songs found in saatanam.me.
         </p>
 
         <Link
-          href={`https://github.com/TKOaly/laulum.me/edit/main/books/${book.name}.json`}
+          href={`https://github.com/ConcernedHobbit/saatanam.me/edit/main/books/${book.name}.json`}
           target="_blank"
           rel="noreferrer noopener"
           variant="secondary"
