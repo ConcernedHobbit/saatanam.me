@@ -1,5 +1,9 @@
+const isString = (some: unknown): some is string => {
+  return typeof some === 'string' || some instanceof String
+}
+
 const slugify = (str: string) => {
-  if (!(typeof str === 'string' || str instanceof String)) {
+  if (!isString(str)) {
     throw new Error(`input ${str} is not string`)
   }
 
