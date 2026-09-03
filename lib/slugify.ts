@@ -1,9 +1,9 @@
 const isString = (some: unknown): some is string => typeof some === 'string' || some instanceof String;
 
-const slugify = (str: string) => {
+const slugify = (str: any) => {
   if (!isString(str)) {
     console.warn(`slugify: input ${str} not a string, attempting coercion with toString`);
-    str = str.toString();
+    str = str?.toString();
   }
 
   str = str.replace(/^\s+|\s+$/g, ""); // trim
