@@ -1,4 +1,8 @@
 const slugify = (str: string) => {
+  if (!(typeof str === 'string' || str instanceof String)) {
+    throw new Error(`input ${str} is not string`)
+  }
+
   str = str.replace(/^\s+|\s+$/g, ""); // trim
   str = str.toLowerCase();
 
