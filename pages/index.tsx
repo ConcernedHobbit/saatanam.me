@@ -52,12 +52,12 @@ const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
         <meta name="og:site_name" content="saatanam.me" />
       </Head>
 
-      <Header>
+      <Header logo={false}>
         <div style={{ position: "relative" }}>
           <Logo style={promptVisible ? { filter: "blur(3px)" } : {}} />
           {promptVisible && <UpdateOverlay updateWorker={updateWorker} />}
         </div>
-        <h1 className={merriweather.className}>saatanam.me</h1>
+        <h1 className={merriweather.className} style={{ color: "var(--theme)" }}>saatanam.me</h1>
       </Header>
 
       <div
