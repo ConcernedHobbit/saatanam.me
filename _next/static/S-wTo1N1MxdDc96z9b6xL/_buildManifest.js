@@ -1,21 +1,21 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/939edc0370ffa304.js"
+    "static/chunks/7dab52c99b27bed0.js"
   ],
   "/404": [
-    "static/chunks/75a2e1b0ab6c4668.js"
+    "static/chunks/82decf4cc7421499.js"
   ],
   "/_error": [
     "static/chunks/8ff4796f243125b9.js"
   ],
   "/_offline": [
-    "static/chunks/90992ce0687e423e.js"
+    "static/chunks/a4339f37905230fa.js"
   ],
   "/book/[name]": [
-    "static/chunks/cd3e483de852d13e.js"
+    "static/chunks/98b2b5dc1c398dbf.js"
   ],
   "/songs/[slug]": [
-    "static/chunks/913f50496bf2442b.js"
+    "static/chunks/57256c870ef61d57.js"
   ],
   "__rewrites": {
     "afterFiles": [],
