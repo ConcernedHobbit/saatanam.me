@@ -75,18 +75,18 @@
   }
   .link:hover,
   .link:focus {
-    --text: #fff500;
-    --accent: #fff500;
+    --text: #e98700;
+    --accent: #e98700;
   }
 
   .link.primary {
     --background: black;
-    --accent: #fff500;
-    --text: #fff500;
+    --accent: #e98700;
+    --text: #e98700;
   }
   .link.primary:hover,
   .link.primary:focus {
-    --background: #fff500;
+    --background: #e98700;
     --text: black;
   }
 
