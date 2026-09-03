@@ -4,7 +4,7 @@ import Head from "next/head";
 import { Merriweather } from "next/font/google";
 
 import {
-  Icon,
+  Logo,
   Link,
   Footer,
   Header,
@@ -54,7 +54,7 @@ const Index = ({ titles }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
       <Header>
         <div style={{ position: "relative" }}>
-          <Icon style={promptVisible ? { filter: "blur(3px)" } : {}} />
+          <Logo style={promptVisible ? { filter: "blur(3px)" } : {}} />
           {promptVisible && <UpdateOverlay updateWorker={updateWorker} />}
         </div>
         <h1 className={merriweather.className}>saatanam.me</h1>

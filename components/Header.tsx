@@ -4,9 +4,9 @@ import { Logo } from "./Logo";
 export type HeaderProps = DetailedHTMLProps<
   HTMLAttributes<HTMLElement>,
   HTMLElement
-> & { children: ReactNode };
+> & { children: ReactNode, logo?: boolean };
 
-export const Header = ({ children, style, ...props }: HeaderProps) => (
+export const Header = ({ children, style, logo = true, ...props }: HeaderProps) => (
   <header
     style={{
       display: "flex",
@@ -18,6 +18,6 @@ export const Header = ({ children, style, ...props }: HeaderProps) => (
     {...props}
   >
     {children}
-    <Logo key="header-logo" style={{ marginLeft: "auto" }} />
+    {logo && <Logo key="header-logo" style={{ marginLeft: "auto" }} />}
   </header>
 );
