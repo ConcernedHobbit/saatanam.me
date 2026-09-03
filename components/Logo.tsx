@@ -5,7 +5,9 @@ import styles from "./Logo.module.css";
 
 export const Logo = ({
   size = 72,
-} & { size?: number }) => (
+  ...props
+}: HTMLProps<HTMLDivElement> & { size?: number }) => (
+  <div {...props}>
     <Image
       className={styles.logo}
       src="/icons/favicon.svg"
@@ -13,4 +15,5 @@ export const Logo = ({
       height={size}
       alt=""
     />
+  </div>
 );
