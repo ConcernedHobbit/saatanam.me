@@ -1,7 +1,6 @@
 {
   "name": "saatanam.me",
   "short_name": "stna",
-  "description": "Unholy verses for unholy table parties",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png?v=1",
@@ -16,9 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "start_url": ".",
-  "orientation": "portrait-primary",
-  "display": "fullscreen",
   "theme_color": "#ffffff",
-  "background_color": "#000000"
+  "background_color": "#ffffff",
+  "display": "standalone"
 }

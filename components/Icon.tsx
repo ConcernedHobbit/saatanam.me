@@ -9,7 +9,7 @@ export const Icon = ({
   <Image
     {...props}
     className={styles.icon}
-    src="/icon.svg"
+    src="/white.png"
     width={size}
     height={size}
     alt=""
